@@ -89,9 +89,9 @@ li3 = [1,2,3, 'n', 's', True]
 
 #Data structure
 apple_cart = ['iphone', 'macbook', 'watch']
-#print(apple_cart[0])  # index start fromm 0 in python
-#print(apple_cart[1])
-#print(apple_cart[2])
+print(apple_cart[0])  # index start fromm 0 in python
+print(apple_cart[1])
+print(apple_cart[2])
 
 # List slicing
 apple_cart.append('Airpod')
@@ -112,9 +112,9 @@ my_matrix = [
 
 # -- List unpacking 
 a,b,c = [1, 2, 4]  # 1, 2, 4
-#print(b)
+print(b)
 a,b,c, *other = [1, 2, 4, 5, 6, 7, 8]
-#print(other)
+print(other)
 
 #Dictionary; in other languages are known as associative array or a map
 # it can hold any data types
@@ -133,7 +133,7 @@ dictionary = {
     'd' : 'Dog',
     'c' : True
 }
-#print(dictionary.get('a'))
+print(dictionary.get('a'))
 
 #Tuples are immutable list. you can not modified (sort, append etc)
 #you can access it through index
@@ -141,7 +141,7 @@ dictionary = {
 #count, index
 my_tuple = (1,2,3,4,5)
 my_tuple[1]
-# print(5 in my_tuple)
+print(5 in my_tuple)
 
 user = {
     (1,2) : [1,2,3],
@@ -149,19 +149,18 @@ user = {
     'age'   : 20
     }
 
-#print(user[(1,2)])
-#print(my_tuple.count(5)) print(my_tuple.index(5))print(len(my_tuple))
+print(user[(1,2)])
+print(my_tuple.count(5)) print(my_tuple.index(5))print(len(my_tuple))
 
 #Function #DRY -> do not repeat yourself
 def say_hello(name, emoji):
     print(f'Hello {name} {emoji} ')
 
-#say_hello('Andre', 'happe')
+say_hello('Somebody', ':)')
 
 def add(a,b):
     return a +b
-
-#print(add(5,5))
+print(add(5,5))
 
 #---Clean code
 def is_even(num):
