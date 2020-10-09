@@ -1,5 +1,5 @@
 # all_about-_py_base
-# As a note  I am cover following things in this repository 
+# This will cover following topics (just as a note)
 # Essential of Python---fundamentals 
   !- Data types 
   !- List
